@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Shield, Satellite, Layout, BookOpen } from 'lucide-react';
+import { Shield, BookOpen, Layout, FileText } from 'lucide-react';
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
@@ -8,9 +8,9 @@ import Foundations from './pages/Foundations';
 import About from './pages/About';
 
 const navigation = [
-  { name: 'Satellite', href: '/satellite', icon: Satellite },
-  { name: 'Station', href: '/station', icon: Layout },
-  { name: 'Emerald Tablets', href: '/tablets', icon: BookOpen },
+  { name: 'Resources', href: '/resources', icon: BookOpen },
+  { name: 'Foundations', href: '/foundations', icon: Layout },
+  { name: 'About', href: '/about', icon: FileText },
 ];
 
 function App() {
