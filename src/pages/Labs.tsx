@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Flask, Terminal, Shield, Bug, Network, Lock, Brain } from 'lucide-react';
+import { FlaskRound as Flask, Terminal, Shield, Bug, Network, Lock, Brain } from 'lucide-react';
 
 interface Lab {
   id: string;
