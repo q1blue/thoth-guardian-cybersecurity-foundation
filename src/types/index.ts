@@ -23,3 +23,13 @@ export interface NavigationItem {
   href: string;
   icon: React.ComponentType<any>;
 }
+
+export interface Lab {
+  id: string;
+  title: string;
+  description: string;
+  difficulty: 'Beginner' | 'Intermediate' | 'Advanced';
+  category: string;
+  duration: string;
+  icon: React.ComponentType<any>;
+}
