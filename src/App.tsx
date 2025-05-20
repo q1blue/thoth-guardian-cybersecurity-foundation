@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Shield, BookOpen, Layout, FileText, Flask } from 'lucide-react';
+import { Shield, BookOpen, Layout, FileText, FlaskRound as Flask } from 'lucide-react';
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
